@@ -13,5 +13,6 @@ print (f"Median: {median}")
 print (f"Mode:{mode}")
 
 ptint ("Finish srong !!!")
+print("Im to demo lite")
 
-print("Im to demo lite") 11111
+print("LEMON LEMON")
