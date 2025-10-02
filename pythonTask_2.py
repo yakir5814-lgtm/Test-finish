@@ -11,3 +11,5 @@ mean, median, mode = calculate_statistics(numbers)
 print(f"mean: {mean}")
 print (f"Median: {median}")
 print (f"Mode:{mode}")
+
+Test 3
