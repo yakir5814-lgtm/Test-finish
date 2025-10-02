@@ -12,4 +12,3 @@ print(f"mean: {mean}")
 print (f"Median: {median}")
 print (f"Mode:{mode}")
 
-cccc
