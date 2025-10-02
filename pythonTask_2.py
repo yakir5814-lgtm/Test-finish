@@ -12,7 +12,8 @@ print(f"mean: {mean}")
 print (f"Median: {median}")
 print (f"Mode:{mode}")
 
-ptint ("Finish srong !!!")
+
+print("Finish strong !!!")
 print("Im to demo lite")
 
 print("LEMON LITE LITE")
