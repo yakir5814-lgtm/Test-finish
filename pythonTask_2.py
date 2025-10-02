@@ -14,4 +14,4 @@ print (f"Mode:{mode}")
 
 ptint ("Finish srong !!!")
 
-print("Im to demo lite")
+print("Im to demo lite") 11111
