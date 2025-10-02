@@ -12,9 +12,13 @@ print(f"mean: {mean}")
 print (f"Median: {median}")
 print (f"Mode:{mode}")
 
+<<<<<<< HEAD
 
 print("Finish strong !!!")
 print("Im to demo lite")
 
 print("LEMON LITE LITE")
 print("YAKIR KINGGG")
+=======
+Test 3
+>>>>>>> main
