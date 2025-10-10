@@ -1,24 +1,17 @@
-import statistics
+# Assuming the server names are stored in the 'servers' list from Task 1
+servers = []
+for _ in range(3):
+    server = input("Enter the name of a server: ")
+    servers.append(server)
 
-def calculate_statistics(numbers):
-    mean = statistics.mean(numbers)
-    median = statistics.median(numbers)
-    mode = statistics.mode(numbers)
-    return mean, median, mode
-# Test the function
-numbers = [10, 20, 20, 30, 40]
-mean, median, mode = calculate_statistics(numbers)
-print(f"mean: {mean}")
-print (f"Median: {median}")
-print (f"Mode:{mode}")
+# Step 2: Assign IP Addresses to Servers
+ip_addresses = {}  # Create an empty dictionary
 
-<<<<<<< HEAD
+for server in servers:
+    ip = input(f"Enter the IP address for {server}: ")
+    ip_addresses[server] = ip  # Populate the dictionary
 
-print("Finish strong !!!")
-print("Im to demo lite")
-
-print("LEMON LITE LITE")
-print("YAKIR KINGGG")
-=======
-Test 3
->>>>>>> main
+# Print the dictionary in a readable format
+print("\nThe IP addresses assigned to the servers are:")
+for server, ip in ip_addresses.items():
+    print(f"Server: {server}, IP Address: {ip}")
